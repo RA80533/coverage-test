@@ -87,7 +87,7 @@ jobs:
           # Specify whether the Codecov output should be verbose
           verbose: # optional
           # Directory in which to execute codecov.sh
-          working-directory: ..
+          working-directory: "/dev/null "
           # Custom Derived Data Path for Coverage.profdata and gcov processing
           xcode_derived_data: # optional
           # Specify packages to build coverage. Uploader will only build these packages
